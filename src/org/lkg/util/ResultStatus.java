@@ -10,5 +10,11 @@ package org.lkg.util;
  * @CopyRight lkg.nb.com
  */
 public enum ResultStatus {
-
+	LOGIN_SUCCESS,
+	LOGIN_FAIL,
+	USERNAME_NOT_EXIST,  	//用户名不存在
+	REGIST_SUCCESS,
+	REGIST_FAIL,
+	USERNAME_EXIST			//注册用户已存在
+	
 }

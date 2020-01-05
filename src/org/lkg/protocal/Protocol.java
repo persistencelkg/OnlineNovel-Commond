@@ -8,7 +8,7 @@ import org.lkg.entity.SysDTO;
 
 /**
  * 
- * @description:服务端和客户端的约定协议
+ * @description:服务端对于客户端的访问所约定协议
  * @author: 浮~沉
  * @version: 1.0
  * @data 2019年12月27日 下午12:15:34
