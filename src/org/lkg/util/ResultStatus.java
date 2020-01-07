@@ -10,6 +10,7 @@ package org.lkg.util;
  * @CopyRight lkg.nb.com
  */
 public enum ResultStatus {
+	/*--------------------用户业务执行状态----------------------------*/
 	LOGIN_SUCCESS,
 	LOGIN_FAIL,
 	USERNAME_NOT_EXIST,  	//用户名不存在
@@ -19,5 +20,9 @@ public enum ResultStatus {
 	
 	SERVER_ERROR,			//服务端异常
 	
-	SUCCESS,FAIL			//普通业务的状态
+	SUCCESS,FAIL,			//普通业务的状态
+	/*-------------------小说业务执行状态---------------------------*/
+	FILE_NOT_FOUND,			//FileNotFountException
+	FILE_NOT_READ,			//IOException
+	FILE_EXIT				//上传文件覆盖问题
 }

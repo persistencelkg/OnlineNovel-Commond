@@ -15,4 +15,7 @@ public class SysConstants {
 	public static final String 小说分类="novel_sort";
 	public static final String 小说集合="novel_list";
 	
+	public static final String 上传="upload";
+	public static final String 下载="download";
+	public static final String 预览="preview";
 }

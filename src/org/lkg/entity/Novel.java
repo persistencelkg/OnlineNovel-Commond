@@ -19,22 +19,24 @@ public class Novel implements Serializable{
 	private String desc;
 	private transient String fileName;
 	
-	public Novel() {
+	private Classifcation classifcation;
+	//预览信息,用户没有调用预览,就不应该过多展示预览信息,同时还可以节省网络流量
+	private transient String preview;		
 	
-	}
+	public Novel() {}
 	
+
 	
-	public Novel(String name, String author, String desc, String fileName) {
+
+	public Novel(String name, String author, String desc, String fileName, Classifcation classifcation) {
 		this.name = name;
 		this.author = author;
 		this.desc = desc;
 		this.fileName = fileName;
+		this.classifcation = classifcation;
 	}
 
 
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
 
 
 	public String getName() {
@@ -55,7 +57,19 @@ public class Novel implements Serializable{
 	public String getFileName() {
 		return fileName;
 	}
-	
+
+
+	public Classifcation getClassifcation() {
+		return classifcation;
+	}
+
+	public String getPreview() {
+		return preview;
+	}
+
+	public void setPreview(String preview) {
+		this.preview = preview;
+	}
 	
 	
 	
