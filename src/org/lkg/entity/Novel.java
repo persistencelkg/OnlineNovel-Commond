@@ -70,6 +70,29 @@ public class Novel implements Serializable{
 	public void setPreview(String preview) {
 		this.preview = preview;
 	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
+
+	public void setClassifcation(Classifcation classifcation) {
+		this.classifcation = classifcation;
+	}
+
+
+
+
+	public void setFileName(String fileName) {
+		this.fileName = fileName;
+	}
 	
 	
 	

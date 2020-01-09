@@ -24,5 +24,8 @@ public enum ResultStatus {
 	/*-------------------小说业务执行状态---------------------------*/
 	FILE_NOT_FOUND,			//FileNotFountException
 	FILE_NOT_READ,			//IOException
-	FILE_EXIT				//上传文件覆盖问题
+	FILE_EXIT,				//上传文件覆盖问题
+	
+	UPLOAD_SUCCESS,
+	UPLOAD_FAIL
 }
